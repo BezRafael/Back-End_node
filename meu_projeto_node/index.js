@@ -1,19 +1,16 @@
-const express = require('express'); //Importando o express 
-const app = express(); //Atribuindo a variável express na variável app
+const express = require('express'); //importando o express
+const app = express(); //atribuindo o express a uma contante
+
+//importando o arquivo "rota_filmes" que contém as rotas
 const rota_filmes = require('./rotas/rota_filmes');
 
-
-//middleware
 app.use(express.json());
 
-
-//Rota GET
-app.get('/', (req, res) => {
-    res.send('Tela Inicial');
-});
+app.use('/', rota_filmes)
+app.use('/filme', rota_filmes)
+app.use('/filmes', rota_filmes)
 
 
-
-app.listen(3000, () =>{
-    console.log('Iniciando Processos... Processo Iniciado! http://localhost:3000');
+app.listen(3000, () => {
+    console.log('Iniciando Processos... Servidor Rodando! http://localhost:3000');
 });
