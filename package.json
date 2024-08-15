@@ -1,7 +1,7 @@
 {
-  "name": "meu_projeto_node",
+  "name": "back-end_node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Básico Back-End Node.js // Express.js // Nodemon",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

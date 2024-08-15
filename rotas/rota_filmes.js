@@ -1,5 +1,5 @@
-const express = require('express'); //importando o express
-const rota = express(); //atribuindo o express a uma contante
+const express = require('express'); //importando o módulo express
+const rota = express(); //atribuindo a função express a uma constante
 
 //importando o arquivo "controle_filmes" que contém funções
 const controle_filme = require('../controladores/controle_filmes'); 
