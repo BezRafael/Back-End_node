@@ -12,7 +12,7 @@
         <img src="img_readme/icon_nodemon.png" style ="width:80px" title="Nodemon">
     </a>
     <a href="https://www.npmjs.com/package/express">
-        <img src="img_readme/icon_express.png" style="width:200px; height:80px" title="Express">
+        <img src="img_readme/icon_express.png" style="width:200px; height:70px" title="Express">
     </a>
 </div>
 
@@ -40,7 +40,7 @@ Ele funciona da seguinte maneira
 ### Como Usar
 Para utilizar primeiramente é necessário fazer o clone do repositório
 
-logo após o clone, pelo terminal,instale o express.
+logo após o clone, pelo terminal, instale o express.
 
         npm install --dev-save express
 
@@ -48,7 +48,8 @@ agora é só rodar a aplicação, para isso digite no terminal.
 
         npm run dev
 
-Para testar suas funcionalidades, você precisa de um software para testar a API, enviar requisições HTTP e visualizar as respostas
+Para testar suas funcionalidades, você precisa de um software para testar a API, enviar requisições HTTP e visualizar as respostas.
+
 <a href="https://insomnia.rest/">
     <img src="./img_readme/icon_insomnia.png" style="width:50px; height:50px" title="Insomnia">
 </a>
